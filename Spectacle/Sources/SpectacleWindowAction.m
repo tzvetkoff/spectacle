@@ -19,6 +19,10 @@ SpectacleWindowAction *const kSpectacleWindowActionNextDisplay = @"SpectacleWind
 SpectacleWindowAction *const kSpectacleWindowActionPreviousDisplay = @"SpectacleWindowActionPreviousDisplay";
 SpectacleWindowAction *const kSpectacleWindowActionNextThird = @"SpectacleWindowActionNextThird";
 SpectacleWindowAction *const kSpectacleWindowActionPreviousThird = @"SpectacleWindowActionPreviousThird";
+SpectacleWindowAction *const kSpectacleWindowActionUp = @"SpectacleWindowActionUp";
+SpectacleWindowAction *const kSpectacleWindowActionDown = @"SpectacleWindowActionDown";
+SpectacleWindowAction *const kSpectacleWindowActionLeft = @"SpectacleWindowActionLeft";
+SpectacleWindowAction *const kSpectacleWindowActionRight = @"SpectacleWindowActionRight";
 
 BOOL SpectacleIsUndoWindowAction(SpectacleWindowAction *action)
 {

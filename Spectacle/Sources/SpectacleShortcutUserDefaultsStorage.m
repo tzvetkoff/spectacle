@@ -55,6 +55,10 @@
            @"MoveToPreviousThird",
            @"MakeLarger",
            @"MakeSmaller",
+           @"MoveUp",
+           @"MoveDown",
+           @"MoveLeft",
+           @"MoveRight",
            @"UndoLastMove",
            @"RedoLastMove",
            ];

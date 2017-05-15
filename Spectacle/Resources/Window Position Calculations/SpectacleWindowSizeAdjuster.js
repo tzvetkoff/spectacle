@@ -81,7 +81,14 @@ var SpectacleWindowSizeAdjuster = (function () {
         var minimumWindowRectHeight = Math.floor(visibleFrameOfDestinationScreen.height / 4.0);
         return (windowRect.width <= minimumWindowRectWidth) || (windowRect.height <= minimumWindowRectHeight);
     };
+    var moveWindowRect = function(windowRect, visibleFrameOfDestinationScreen, dx, dy) {
+        var adjustedWindowRect = SpectacleCalculationHelpers.copyRect(windowRect);
+        adjustedWindowRect.x = Math.min(Math.max(windowRect.x + dx, 0), Math.max(visibleFrameOfDestinationScreen.width  - windowRect.width, 0));
+        adjustedWindowRect.y = Math.min(Math.max(windowRect.y + dy, 0), Math.max(visibleFrameOfDestinationScreen.height - windowRect.height, 0));
+        return adjustedWindowRect;
+    }
     return {
         resizeWindowRect: resizeWindowRect,
+        moveWindowRect: moveWindowRect
     };
 })();

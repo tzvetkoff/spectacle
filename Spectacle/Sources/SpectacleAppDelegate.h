@@ -22,6 +22,10 @@
 @property (nonatomic, strong) IBOutlet NSMenuItem *moveToPreviousThirdShortcutMenuItem;
 @property (nonatomic, strong) IBOutlet NSMenuItem *makeLargerShortcutMenuItem;
 @property (nonatomic, strong) IBOutlet NSMenuItem *makeSmallerShortcutMenuItem;
+@property (nonatomic, strong) IBOutlet NSMenuItem *moveUpShortcutMenuItem;
+@property (nonatomic, strong) IBOutlet NSMenuItem *moveDownShortcutMenuItem;
+@property (nonatomic, strong) IBOutlet NSMenuItem *moveLeftShortcutMenuItem;
+@property (nonatomic, strong) IBOutlet NSMenuItem *moveRightShortcutMenuItem;
 @property (nonatomic, strong) IBOutlet NSMenuItem *undoLastMoveShortcutMenuItem;
 @property (nonatomic, strong) IBOutlet NSMenuItem *redoLastMoveShortcutMenuItem;
 @property (nonatomic, strong) IBOutlet NSMenuItem *disableShortcutsForAnHourMenuItem;

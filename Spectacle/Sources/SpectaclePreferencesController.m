@@ -56,6 +56,10 @@
                          @"MoveToPreviousThird": _moveToPreviousThirdShortcutRecorder,
                          @"MakeLarger": _makeLargerShortcutRecorder,
                          @"MakeSmaller": _makeSmallerShortcutRecorder,
+                         @"MoveUp":_moveUpShortcutRecorder,
+                         @"MoveDown":_moveDownShortcutRecorder,
+                         @"MoveLeft":_moveLeftShortcutRecorder,
+                         @"MoveRight":_moveRightShortcutRecorder,
                          @"UndoLastMove": _undoLastMoveShortcutRecorder,
                          @"RedoLastMove": _redoLastMoveShortcutRecorder,
                          };

@@ -33,6 +33,10 @@ static NSArray<SpectacleShortcut *> *builtinDefaultShortcuts(void)
            [[SpectacleShortcut alloc] initWithShortcutName:@"MoveToPreviousThird"   shortcutKeyBinding:@"ctrl+alt+left"],
            [[SpectacleShortcut alloc] initWithShortcutName:@"MakeLarger"            shortcutKeyBinding:@"ctrl+alt+shift+right"],
            [[SpectacleShortcut alloc] initWithShortcutName:@"MakeSmaller"           shortcutKeyBinding:@"ctrl+alt+shift+left"],
+           [[SpectacleShortcut alloc] initWithShortcutName:@"MoveUp"                shortcutKeyBinding:@"alt+shift+cmd+up"],
+           [[SpectacleShortcut alloc] initWithShortcutName:@"MoveDown"              shortcutKeyBinding:@"alt+shift+cmd+down"],
+           [[SpectacleShortcut alloc] initWithShortcutName:@"MoveLeft"              shortcutKeyBinding:@"alt+shift+cmd+left"],
+           [[SpectacleShortcut alloc] initWithShortcutName:@"MoveRight"             shortcutKeyBinding:@"alt+shift+cmd+right"],
            [[SpectacleShortcut alloc] initWithShortcutName:@"UndoLastMove"          shortcutKeyBinding:@"alt+cmd+z"],
            [[SpectacleShortcut alloc] initWithShortcutName:@"RedoLastMove"          shortcutKeyBinding:@"alt+shift+cmd+z"],
            ];

@@ -27,6 +27,10 @@
 @property (nonatomic, strong) IBOutlet SpectacleShortcutRecorder *moveToPreviousThirdShortcutRecorder;
 @property (nonatomic, strong) IBOutlet SpectacleShortcutRecorder *makeLargerShortcutRecorder;
 @property (nonatomic, strong) IBOutlet SpectacleShortcutRecorder *makeSmallerShortcutRecorder;
+@property (nonatomic, strong) IBOutlet SpectacleShortcutRecorder *moveUpShortcutRecorder;
+@property (nonatomic, strong) IBOutlet SpectacleShortcutRecorder *moveDownShortcutRecorder;
+@property (nonatomic, strong) IBOutlet SpectacleShortcutRecorder *moveLeftShortcutRecorder;
+@property (nonatomic, strong) IBOutlet SpectacleShortcutRecorder *moveRightShortcutRecorder;
 @property (nonatomic, strong) IBOutlet SpectacleShortcutRecorder *undoLastMoveShortcutRecorder;
 @property (nonatomic, strong) IBOutlet SpectacleShortcutRecorder *redoLastMoveShortcutRecorder;
 

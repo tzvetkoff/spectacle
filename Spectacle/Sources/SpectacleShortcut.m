@@ -111,6 +111,14 @@
     windowAction = kSpectacleWindowActionLarger;
   } else if ([name isEqualToString:@"MakeSmaller"]) {
     windowAction = kSpectacleWindowActionSmaller;
+  } else if ([name isEqualToString:@"MoveUp"]) {
+    windowAction = kSpectacleWindowActionUp;
+  } else if ([name isEqualToString:@"MoveDown"]) {
+    windowAction = kSpectacleWindowActionDown;
+  } else if ([name isEqualToString:@"MoveLeft"]) {
+    windowAction = kSpectacleWindowActionLeft;
+  } else if ([name isEqualToString:@"MoveRight"]) {
+    windowAction = kSpectacleWindowActionRight;
   } else if ([name isEqualToString:@"UndoLastMove"]) {
     windowAction = kSpectacleWindowActionUndo;
   } else if ([name isEqualToString:@"RedoLastMove"]) {
